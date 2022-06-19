@@ -29,3 +29,9 @@ Fundamentals
 7 - Enum
 
 1. We normally use Pascal Convention to declare the enum variable
+
+8 - Functions
+
+1. we can able the noUseParameter config, it will notify us when the parameter is not used inside the function
+2. we can also enable the noImplicitReturns config, as it will throw error to us when we did not return any thing in any condition
+3. noUseLocals - throws error when there is no used variable inside the function

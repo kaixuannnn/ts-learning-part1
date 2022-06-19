@@ -27,3 +27,19 @@ const enum Size {
 }
 let mySize: Size = Size.Medium
 console.log(mySize)
+
+// function
+/** 1. we should always annotate type for return, although ts will infer for us.
+ * 2. type void, when we dont return any value
+ */
+function calculateTax(income: number, taxYear = 2022): number {
+  if (taxYear < 2022) return income * 1.2
+  return income * 1.3
+}
+
+/** 3. Ts will only restrict for allowing 2 argv,
+ * we can give a default value to the argv so that,
+ * it wont throw errors to us
+ */
+
+calculateTax(10_000, 2023)
