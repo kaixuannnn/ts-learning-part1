@@ -11,3 +11,6 @@ level = 'a'
 function render(document: any) {
   console.log(document)
 }
+
+//tuple
+let user: [number, string] = [1, 'Mosh']

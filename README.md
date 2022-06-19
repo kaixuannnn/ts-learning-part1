@@ -20,3 +20,8 @@ Fundamentals
 4 - Array
 
 1. same like others, typescript will automatically annotate type for you when you first assigning value to the variable, if you declare variable w/o assigning value, it will automatically become type any
+
+6 - Tuples
+
+1. it onlny available in Typescript, we cant find in Javascript, it is just an array
+2. try to retricts your tuples with 2 values
