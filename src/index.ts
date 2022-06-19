@@ -132,3 +132,12 @@ console.log(customer?.birthday?.getFullYear())
 // Optional call (function)
 let log: any = null
 log?.('a')
+
+// Nullish Coaelscing Operator
+let speed: number | null = null
+let ride = {
+  //Falsy (undefined, null, '', false, 0)
+  //What if in this case, we want 0 can be passed, not result as falsey
+  // instead of doing speed !== null, we can use ??, we so call Nullish Coaelscing Operator
+  speed: speed ?? 30
+}
