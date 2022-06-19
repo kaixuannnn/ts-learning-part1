@@ -11,4 +11,6 @@ function render(document) {
     console.log(document);
 }
 let user = [1, 'Mosh'];
+let mySize = 1;
+console.log(mySize);
 //# sourceMappingURL=index.js.map

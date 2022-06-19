@@ -25,3 +25,7 @@ Fundamentals
 
 1. it onlny available in Typescript, we cant find in Javascript, it is just an array
 2. try to retricts your tuples with 2 values
+
+7 - Enum
+
+1. We normally use Pascal Convention to declare the enum variable
