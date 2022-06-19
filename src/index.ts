@@ -74,3 +74,12 @@ let newEmployee: Employee = {
     console.log('retire', date)
   }
 }
+
+//Union Types
+function kgToLbs(weight: number | string): number {
+  // Narrowing
+  if (typeof weight == 'number') return weight * 2.2
+  else return parseInt(weight) * 2.2
+}
+kgToLbs('10')
+kgToLbs(20)

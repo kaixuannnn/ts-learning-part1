@@ -40,3 +40,5 @@ Advanced Types
 2 - Type Aliases
 
 1. We can globalise the type of the objects, so we no need to keep repeating the object type
+
+3 - Union Types
