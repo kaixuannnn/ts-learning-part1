@@ -141,3 +141,14 @@ let ride = {
   // instead of doing speed !== null, we can use ??, we so call Nullish Coaelscing Operator
   speed: speed ?? 30
 }
+
+// Type Assertions
+let phone = <HTMLInputElement>document.getElementById('phone')
+
+phone.value
+
+//the unknown type
+
+// function render(document: unknown){
+//    if (document instanceof WordDocument)
+// }
