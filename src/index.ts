@@ -152,3 +152,15 @@ phone.value
 // function render(document: unknown){
 //    if (document instanceof WordDocument)
 // }
+
+// never type (seldom use)
+function processEvent(message: string): never {
+  throw new Error(message)
+}
+
+// function processEvent(): never {
+//   while (true) {}
+// }
+
+processEvent('...')
+console.log('here')
