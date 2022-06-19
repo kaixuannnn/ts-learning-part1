@@ -16,3 +16,7 @@ Fundamentals
 
 1. if we declare a variable w/o assigning a value, typescript will claim it as any
 2. you can go to tsconfig.json to make noImplicityAny to false
+
+4 - Array
+
+1. same like others, typescript will automatically annotate type for you when you first assigning value to the variable, if you declare variable w/o assigning value, it will automatically become type any
