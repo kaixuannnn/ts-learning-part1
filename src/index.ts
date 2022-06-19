@@ -58,3 +58,19 @@ let employee: {
     console.log('retire', date)
   }
 }
+
+// Aliases Type
+type Employee = {
+  readonly id: number
+  name: string
+  fax?: number
+  retire: (date: Date) => void
+}
+
+let newEmployee: Employee = {
+  id: 1,
+  name: 'Kai',
+  retire: (date: Date) => {
+    console.log('retire', date)
+  }
+}

@@ -35,3 +35,8 @@ Fundamentals
 1. we can able the noUseParameter config, it will notify us when the parameter is not used inside the function
 2. we can also enable the noImplicitReturns config, as it will throw error to us when we did not return any thing in any condition
 3. noUseLocals - throws error when there is no used variable inside the function
+
+Advanced Types
+2 - Type Aliases
+
+1. We can globalise the type of the objects, so we no need to keep repeating the object type
