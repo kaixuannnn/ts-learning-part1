@@ -112,3 +112,23 @@ function greet(name: string | null) {
 }
 
 greet(null)
+
+// Optional Chaining
+type Customer = {
+  birthday: Date
+}
+
+function getCustomer(id: number): Customer | null | undefined {
+  return id === 0 ? null : { birthday: new Date() }
+}
+
+let customer = getCustomer(1)
+// Optional property access property, another unrecommended way is doing checking if is undefined or null
+console.log(customer?.birthday?.getFullYear())
+
+//Optional element access operarotor (array)
+// customer?.[0]
+
+// Optional call (function)
+let log: any = null
+log?.('a')
