@@ -43,3 +43,18 @@ function calculateTax(income: number, taxYear = 2022): number {
  */
 
 calculateTax(10_000, 2023)
+
+// objects
+/** 1. we can assign readonly to the property of the object, so we wont accidentally modify the value */
+let employee: {
+  readonly id: number
+  name: string
+  fax?: number
+  retire: (date: Date) => void
+} = {
+  id: 1,
+  name: 'Kai',
+  retire: (date: Date) => {
+    console.log('retire', date)
+  }
+}
